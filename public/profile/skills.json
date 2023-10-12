@@ -10,29 +10,49 @@
                     "title": "Java"
                 },
                 {
-                    "icon": "images/skills/php.png",
-                    "title": "PHP"
-                },
-                {
                     "icon": "images/skills/js.png",
                     "title": "JavaScript"
                 },
-                {
-                    "icon": "images/skills/python.png",
-                    "title": "Python"
+			    {
+                    "icon": "images/skills/CSharp.png",
+                    "title": "C#"
                 },
+			    {
+                    "icon": "images/skills/solidity.png",
+                    "title": "Solidity"
+                },		
+			    {
+                    "icon": "images/skills/typescript.png",
+                    "title": "Typescript"
+                },					
                 {
                     "icon": "images/skills/mysql.png",
                     "title": "MySQL"
+                },					
+                {
+                    "icon": "images/skills/mongo-db.png",
+                    "title": "MongoDb"
+                },					
+                {
+                    "icon": "images/skills/postgre.png",
+                    "title": "PostgreSQL"
+                },					
+                {
+                    "icon": "images/skills/sqlite.png",
+                    "title": "SQLite"
                 }
         ]},
         {
             "title": "Frameworks & Technologies",
             "items" : [
                 {
-                    "icon": "images/skills/android_new.png",
-                    "title": "Android"
+                    "icon": "images/skills/spring.png",
+                    "title": "Spring"
                 },
+                {
+                    "icon": "images/skills/web3.png",
+                    "title": "Web3"
+                },				
                 {
                     "icon": "images/skills/react.png",
                     "title": "React"
@@ -47,9 +67,17 @@
             "title" : "Tools & Platforms",
             "items": [
                 {
-                    "icon": "images/skills/android-studio.png",
-                    "title": "Android Studio"
+                    "icon": "images/skills/intellij.png",
+                    "title": "Intellij"
                 },
+                {
+                    "icon": "images/skills/vs.png",
+                    "title": "Visual Studio"
+                },	
+                {
+                    "icon": "images/skills/remix.png",
+                    "title": "Remix IDE"
+                },						
                 {
                     "icon": "images/skills/git.png",
                     "title": "Git"

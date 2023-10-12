@@ -1,19 +1,22 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
+            "title": "Jan 2013 - Jan 2015",
+            "cardTitle": "Computer Science",
+            "cardSubtitle":"Military Technology Academy",
+            "cardDetailedText": "Masters",
             "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+                "src": "images/education/qs.png"
             }
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "Jan 2007 - Jan 2012",
+            "cardTitle": "Digital Communication and Media/Multimedia",
+            "cardSubtitle":"Hanoi University of Science and Technology",
+            "cardDetailedText": "Bachelors",
+			"icon" : {
+                "src": "images/education/hust.png"
+            }
         }
     ]
 }

@@ -1,33 +1,66 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "Software Developer",
+            "subtitle": "Bluebelt Ltd",
             "workType": "Full-time",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Created, communicated, and managed project plans.",
+                "Collaborated to create strategic initiaticves to design,code, and test solutions.",
+                "Remained dedicated to emerging technology and the latest tech concepts."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "07/2023 – Present"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
+            "title": "Freelancer",
+            "subtitle": "Freelancer Ltd",
+            "workType": "Full-time",
             "workDescription": [
-                "Worked on abc."
+                "Build the core foundation and functionality of a website, web page, or web application including database management, application programming interface (API) development, or web services connections to ensure the app is hosted properly"
             ],
-            "dateText": "01/20XX – 05/20XX"
+            "dateText": "09/2021 – 07/2023"
         },
         {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
+            "title": "Project Manager",
+            "subtitle": "Yumeshin Vietnam",
+            "workType": "Full-time",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Follow agile development approach using JIRA daily standups, planning meetings, story estimations, code review, etc.•",
+                "Resource management",
+                "Resolving tech and non tech issues"
             ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "05/2018 – 09/2021"
+        },
+        {
+            "title": "Back End Developer",
+            "subtitle": "Sofiamedix Software Co.,Ltd",
+            "workType": "Full-time",
+            "workDescription": [
+                "Created, communicated, and managed project plans.•",
+                "Effectively coded software changes and alterations based on specific design specifications.",
+                "Developed CI/CD system with Jenkins on Kubernetes environment, utilized Kubernetes and Docker for the runtime environment for the CI/CD system to build, Test and Deploy."
+            ],
+            "dateText": "06/2015 – 06/2018"
+        },
+        {
+            "title": "Back End Developer",
+            "subtitle": "NEXTOP Co., Ltd",
+            "workType": "Full-time",
+            "workDescription": [
+                "Done Designing and development of RESTful API and services using best practices to interact within the microservices and with the front end",
+                "Created Swagger API to generate interactive API documentation that lets users try out the API calls directly from the browser",
+                "Created and managed all hosted or local repositories through Source Tree's simple interface of GIT client, collaborated with GIT command lines and Stash"
+            ],
+            "dateText": "06/2013 – 06/2015"
+        },
+        {
+            "title": "C# Developer",
+            "subtitle": "Viettel Corp",
+            "workType": "Full-time",
+            "workDescription": [
+                " Effectively coded software changes and alterations based on specific design specifications.Collaborated to create strategic initiaticves to design, code, and test solutions."
+            ],
+            "dateText": "09/2012 – 06/2013"
         }
     ]
 }
