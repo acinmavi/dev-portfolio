@@ -142,7 +142,7 @@
         {
             "image" : "images/projects/minafx.png",
             "title": "FX Trading",
-            "bodyText": "- Traders Securities offers an impressive array of financial instruments for trading. Apart from the usual suspects like forex and securities, the firm also allows trading in options and popular crypto assets like Bitcoin and Ethereum  \n - With Minna no FX, traders can engage in forex trading 24 hours a day, while the platform's “Everyone's system store” allows for automated system trading.",
+            "bodyText": "- Traders Securities offers an impressive array of financial instruments for trading. Apart from the usual suspects like forex and securities, the firm also allows trading in options and popular crypto assets like Bitcoin and Ethereum",
             "links": [ 
 				{
                     "text": "Live",
