@@ -106,6 +106,68 @@
                 "Java",
                 "NFT"                
             ]
+        },
+        {
+            "image" : "images/projects/finstro.png",
+            "title": "Finstro Trade",
+            "bodyText": "- Finstro is the leader in Trade Payments and our partnership allows us to extend longer and more flexible trade terms to our valued business customers. \n - Finstro is a business partner in Trade Payments and seeks to inspire growth in B2B trade through innovative and integrated financial solutions.",
+            "links": [ 
+				{
+                    "text": "Live",
+                    "href": "https://finstro.com/en-us"
+                }
+            ],
+            "tags" : [                
+                "C#",
+                "Nodejs",
+                "AWS"                
+            ]
+        },
+        {
+            "image" : "images/projects/minfx.png",
+            "title": "Social Trading",
+            "bodyText": "- Minna no Systore is a type of SysTrade service provided by Minna no FX of Traders Securities.  \n - Copy trading enables individuals in the financial markets to automatically copy positions opened and managed by other selected individuals",
+            "links": [ 
+				{
+                    "text": "Live",
+                    "href": "https://systrader.min-fx.tv/ranking"
+                }
+            ],
+            "tags" : [                
+                "Java",
+                "MT4",
+                "Forex"                
+            ]
+        },
+        {
+            "image" : "images/projects/minafx.png",
+            "title": "FX Trading",
+            "bodyText": "- Traders Securities offers an impressive array of financial instruments for trading. Apart from the usual suspects like forex and securities, the firm also allows trading in options and popular crypto assets like Bitcoin and Ethereum  \n - With Minna no FX, traders can engage in forex trading 24 hours a day, while the platform's “Everyone's system store” allows for automated system trading.",
+            "links": [ 
+				{
+                    "text": "Live",
+                    "href": "https://min-fx.jp/lineup/fx/"
+                }
+            ],
+            "tags" : [                
+                "Java",
+                "MT4",
+                "Forex"                
+            ]
+        },
+        {
+            "image" : "images/projects/smas.png",
+            "title": "School Management System",
+            "bodyText": "- SMAS is an electronic contact book from Viettel Group that helps connect schools with parents, helping teachers and parents to communicate right on the application with the purpose of improving the quality of teaching and learning of children.",
+            "links": [ 
+				{
+                    "text": "Live",
+                    "href": "https://smas.edu.vn/"
+                }
+            ],
+            "tags" : [                
+                "C#"
+            ]
         }
 		
 
