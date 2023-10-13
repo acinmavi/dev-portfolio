@@ -1,150 +1,113 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "image" : "images/projects/suzuwalk.png",
+            "title": "Suzuwalk",
+            "bodyText": "- Suzuwalk is a 100% Metaverse-ready platform where you can move to earn, play to earn, and socialize to earn. \n - You, as a member, can adopt a dog, play in-universe games, earn based on your in-universe activity, compete for rewards, and socialize with other Suzuwalk members.",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                    "text": "Whitepaper",
+                    "href": "https://suzuverse.gitbook.io/life-with-dog/overview/the-dogs-of-suzuverse"
                 },
                 {
                     "text": "Live",
-                    "href": "https://mayankagarwal.me"
-                }
-            ],
-            "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
-            ]
-        },
-        {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
-                },
-                {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
-            ]
-        },
-        {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
+                    "href": "https://play.google.com/store/apps/details?id=com.wallet.walkthedog&hl=en&gl=US"
                 }
             ],
             "tags" : [
                 "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
+                "Suzuverse",
+                "WalkToEarn"
             ]
         },
         {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
-            "links": [
+            "image" : "images/projects/suzu-market.png",
+            "title": "Suzuverse C2C Marketplace",
+            "bodyText": "- The marketplace of Suzuvere is your one-stop destination for listing and trading digital assets including 3D avatar, 3D images. \n - Provide for C2C ",
+            "links": [               
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
+                    "text": "Live",
+                    "href": "https://marketplace.suzuverse.com/app/marketplace"
                 }
             ],
             "tags" : [
+               "Java",
+                "Suzuverse",
+                "Marketplace"
+            ]
+        },
+        {
+            "image" : "images/projects/suzu-shopify.png",
+            "title": "Suzuverse C2C Marketplace",
+            "bodyText": "- The marketplace of Suzuvere is your one-stop destination for buying Suzuverse Stuff. \n - Provide for B2C ",
+            "links": [ 
+				{
+                    "text": "VN Store",
+                    "href": "https://store.suzuverse.vn/collections/all"
+                },
+                {
+                    "text": "JP Store",
+                    "href": "https://store.suzuverse.jp/collections/earner"
+                },
+				{
+                    "text": "Global Store",
+                    "href": "https://store.suzuverse.com/collections/all"
+                }
+            ],
+            "tags" : [
+                "Shopify",
+                "Nodejs"
+            ]
+        },
+        {
+            "image" : "images/projects/suzu-ams.png",
+            "title": "Suzuverse AMS",
+            "bodyText": "- AMS is a place where you can check all of the information of your SUZUVERSE account including SUZUVERSE Wallet, SUZUVERSE Affiliate and also a place where you can manage your assets (Earners, Avatars, ect).",
+            "links": [ 
+				{
+                    "text": "Live",
+                    "href": "https://ams.suzuverse.com/"
+                }
+            ],
+            "tags" : [
+                "AMS",
+                "Nodejs",
+                "Solidity"
+            ]
+        },
+        {
+            "image" : "images/projects/biteclipse.png",
+            "title": "Biteclipse",
+            "bodyText": "- BitEclipse is all in one online trading platform for multi-asset trading created with long financial market experience and sophisticated FinTech and ICT technology.",
+            "links": [ 
+				{
+                    "text": "Live",
+                    "href": "https://biteclipse.com/"
+                }
+            ],
+            "tags" : [                
                 "Java",
-                "Android",
-                "Firebase",
-                "RSA"
+                "MT4",
+                "Forex",
+                "Crypto"
             ]
         },
         {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
+            "image" : "images/projects/btrans.png",
+            "title": "Btrans.io",
+            "bodyText": "- An NFT Marketplace provides you with the opportunity to create (mint), sell, purchase, bid on, collect, trade, showcase and otherwise transact digital ",
+            "links": [ 
+				{
+                    "text": "Live",
+                    "href": "https://www.btrans.io/"
                 }
             ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+            "tags" : [                
+                "Java",
+                "NFT"                
             ]
         }
+		
+
     ]
 }
