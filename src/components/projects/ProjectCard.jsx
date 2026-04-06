@@ -16,6 +16,11 @@ const styles = {
   },
   cardStyle: {
     borderRadius: 10,
+    height: '100%',
+  },
+  cardImageStyle: {
+    height: 200,
+    objectFit: 'cover',
   },
   cardTitleStyle: {
     fontSize: 24,
@@ -49,8 +54,8 @@ const ProjectCard = (props) => {
         }}
         text={theme.bsSecondaryVariant}
       >
-        <Card.Img variant="top" src={project?.image} />
-        <Card.Body>
+        <Card.Img variant="top" src={project?.image} style={styles.cardImageStyle} />
+        <Card.Body className="flex-grow-1">
           <Card.Title style={styles.cardTitleStyle}>{project.title}</Card.Title>
           <Card.Text style={styles.cardTextStyle}>
             {parseBodyText(project.bodyText)}
