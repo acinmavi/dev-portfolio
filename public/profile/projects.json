@@ -159,17 +159,77 @@
             "image" : "images/projects/smas.png",
             "title": "School Management System",
             "bodyText": "- SMAS is an electronic contact book from Viettel Group that helps connect schools with parents, helping teachers and parents to communicate right on the application with the purpose of improving the quality of teaching and learning of children.",
-            "links": [ 
+            "links": [
 				{
                     "text": "Live",
                     "href": "https://smas.edu.vn/"
                 }
             ],
-            "tags" : [                
+            "tags" : [
                 "C#"
             ]
+        },
+        {
+            "image" : "images/projects/shopify-theme.jpg",
+            "title": "AI Avatar Shopify Theme",
+            "bodyText": "- Custom Shopify theme (Enterprise v1.1.1) for AI Avatar Global — an e-commerce platform combining traditional commerce with Web3/Blockchain payments. \n - Multi-store setup covering Japan, Bangladesh, Brazil, HQ, and Indonesia with full 9-language localization. \n - Features include ETH/Web3 wallet checkout, countdown timers, pre-order templates, product comparison, and a custom color scheme system.",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://store-jp.aiavatar.fun/"
+                }
+            ],
+            "tags" : [
+                "Shopify",
+                "Liquid",
+                "Web3",
+                "JavaScript",
+                "Multi-store"
+            ]
+        },
+        {
+            "image" : "images/projects/credix.jpg",
+            "title": "Shopify Subscription App (Credix & Seal)",
+            "bodyText": "- Shopify embedded app managing recurring subscriptions via non-standard payment gateways (Credix and Seal) that are unsupported by Shopify's built-in subscription API. \n - Handles 3DS credit card authentication flows, webhook-driven subscription billing, and full lifecycle management including cancel, resume, and refund. \n - Built with Remix v2, Polaris UI, MySQL/Prisma, and background cron jobs for automated billing cycles.",
+            "links": [],
+            "tags" : [
+                "Shopify",
+                "Remix",
+                "TypeScript",
+                "MySQL",
+                "Prisma",
+                "Node.js"
+            ]
+        },
+        {
+            "image" : "images/projects/eth.jpg",
+            "title": "Shopify ETH Payment Gateway",
+            "bodyText": "- Shopify app integrating Ethereum (crypto) payment for stores, acting as middleware between Shopify and an external ETH wallet service. \n - Supports two flows: traditional ETH payment via QR code and Web3 direct wallet payment with transaction hash verification. \n - Multi-store support across VN, JP, KR, and BR markets with i18n (5 languages) and HMAC-signed payment callbacks.",
+            "links": [],
+            "tags" : [
+                "Shopify",
+                "Remix",
+                "TypeScript",
+                "Ethereum",
+                "Web3",
+                "Node.js"
+            ]
+        },
+        {
+            "image" : "images/projects/bank-transfer.jpg",
+            "title": "Shopify GMO Bank Transfer Payment",
+            "bodyText": "- Shopify app integrating GMO virtual account (VA) bank transfer payments for the Japanese market (JPY only). \n - Allocates one permanent VA per customer; automatically confirms Shopify orders when GMO webhooks report a successful bank transfer, with support for partial payments and balance accumulation. \n - Built with Remix v2, Prisma/MySQL, OpenTelemetry tracing, Slack notifications, and separate cron containers for order expiry and GMO webhook reconciliation.",
+            "links": [],
+            "tags" : [
+                "Shopify",
+                "Remix",
+                "TypeScript",
+                "MySQL",
+                "GMO",
+                "Japan"
+            ]
         }
-		
+
 
     ]
 }
