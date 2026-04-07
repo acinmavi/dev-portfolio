@@ -21,6 +21,7 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
     display: 'flex',
+    maxWidth: '100%',
   },
 };
 
@@ -52,11 +53,11 @@ function About(props) {
             ? (
               <Fade>
                 <Row>
-                  <Col style={styles.introTextContainer}>
+                  <Col xs={12} md={6} style={styles.introTextContainer}>
                     {parseIntro(data.about)}
                   </Col>
-                  <Col style={styles.introImageContainer}>
-                    <img src={data?.imageSource} alt="profile" />
+                  <Col xs={12} md={6} style={styles.introImageContainer}>
+                    <img src={data?.imageSource} alt="profile" style={{ maxWidth: '100%', height: 'auto' }} />
                   </Col>
                 </Row>
               </Fade>

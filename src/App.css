@@ -50,6 +50,7 @@
 .MainApp {
   margin-top: 8vh;
   height: 90vh;
+  overflow-y: auto;
 }
 
 .main {
@@ -146,5 +147,28 @@ section.timeline-card-content div.card-description > p {
   font-size: 3em;
   font-weight: bold;
   margin-bottom: 25px;
+}
+
+@media (max-width: 576px) {
+  .header {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+
+  .Typewriter__wrapper {
+    font-size: 1.5rem;
+  }
+
+  .Typewriter__cursor {
+    font-size: 1.5rem;
+  }
+
+  .social {
+    margin-top: 30px;
+  }
+
+  .section-content-container {
+    padding: 0 16px;
+  }
 }
 
