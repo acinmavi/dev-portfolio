@@ -18,6 +18,7 @@ const styles = {
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
+    padding: '20px 16px',
   },
 };
 
