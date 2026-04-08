@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
-import { Container, Col, Row } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal';
 import Header from './Header';
@@ -8,20 +7,28 @@ import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
+  aboutLayout: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: '2rem',
+    width: '100%',
+    maxWidth: '960px',
+    padding: '0 20px',
+    flexWrap: 'wrap',
+  },
   introTextContainer: {
-    margin: 10,
-    flexDirection: 'column',
+    flex: '1 1 300px',
     whiteSpace: 'pre-wrap',
     textAlign: 'left',
     fontSize: '1.2em',
     fontWeight: 500,
   },
   introImageContainer: {
-    margin: 10,
+    flex: '1 1 300px',
+    display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    display: 'flex',
-    maxWidth: '100%',
   },
 };
 
@@ -48,22 +55,20 @@ function About(props) {
     <>
       <Header title={header} />
       <div className="section-content-container">
-        <Container>
-          {data
-            ? (
-              <Fade>
-                <Row>
-                  <Col xs={12} md={6} style={styles.introTextContainer}>
-                    {parseIntro(data.about)}
-                  </Col>
-                  <Col xs={12} md={6} style={styles.introImageContainer}>
-                    <img src={data?.imageSource} alt="profile" style={{ maxWidth: '100%', height: 'auto' }} />
-                  </Col>
-                </Row>
-              </Fade>
-            )
-            : <FallbackSpinner />}
-        </Container>
+        {data
+          ? (
+            <Fade>
+              <div style={styles.aboutLayout}>
+                <div style={styles.introTextContainer}>
+                  {parseIntro(data.about)}
+                </div>
+                <div style={styles.introImageContainer}>
+                  <img src={data?.imageSource} alt="profile" style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }} />
+                </div>
+              </div>
+            </Fade>
+          )
+          : <FallbackSpinner />}
       </div>
     </>
   );

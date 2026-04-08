@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { Chrono } from 'react-chrono';
-import { Container } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal';
 import { ThemeContext } from 'styled-components';
@@ -44,8 +43,8 @@ function Education(props) {
       <Header title={header} />
       {data ? (
         <Fade>
-          <div style={{ width }} className="section-content-container">
-            <Container>
+          <div className="section-content-container">
+            <div style={{ width }}>
               <Chrono
                 hideControls
                 allowDynamicUpdate
@@ -71,7 +70,7 @@ function Education(props) {
                   ) : null))}
                 </div>
               </Chrono>
-            </Container>
+            </div>
           </div>
         </Fade>
       ) : <FallbackSpinner /> }

@@ -48,6 +48,7 @@
 }
 
 .MainApp {
+  width: 100%;
   margin-top: 70px;
   min-height: calc(100vh - 70px);
 }

@@ -6,6 +6,13 @@
     justify-content: center;
 }
 
+.timeline-item-title {
+    background: #3D84C6 !important;
+    color: #fff !important;
+    border-radius: 0.2rem;
+    padding: 0.25rem 0.5rem;
+}
+
 @media only screen and (max-width: 578px) {
     div.vertical-item-row > div:nth-child(1) {
         width: 20% !important;
