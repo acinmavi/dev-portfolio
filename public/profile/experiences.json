@@ -7,7 +7,7 @@
             "workDescription": [
                 "Designed and delivered Shopify-focused systems spanning custom storefronts, embedded apps, and regional payment integrations across multiple stores and markets.",
                 "Worked on architecture-heavy backend flows such as asynchronous payment confirmation, webhook processing, lifecycle recovery, and multi-store operational consistency.",
-                "Balanced hands-on implementation with technical leadership, helping shape solution direction while still building core delivery pieces."
+                "Balanced hands-on implementation with technical leadership, helping shape solution direction while still building core delivery pieces on AWS-backed stacks using services such as MySQL, DynamoDB, S3, ELK, and KMS where appropriate."
             ],
             "dateText": "07/2023 – Present"
         },
@@ -29,7 +29,7 @@
             "workDescription": [
                 "Led delivery coordination across agile teams while staying close to technical discussions, trade-offs, and issue resolution.",
                 "Worked across planning, estimation, resourcing, and cross-team problem solving to keep projects moving without losing sight of implementation realities.",
-                "Acted as a bridge between delivery management and engineering execution, especially when technical blockers affected scope, timing, or quality."
+                "Acted as a bridge between delivery management and engineering execution, especially when technical blockers affected scope, timing, architecture choices, or quality."
             ],
             "dateText": "05/2018 – 09/2021"
         },

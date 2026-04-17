@@ -21,7 +21,7 @@
         {
             "image" : "images/projects/credix.jpg",
             "title": "Shopify Subscription App (Credix & Seal)",
-            "bodyText": "- Built a Shopify embedded app for recurring subscriptions using non-standard payment gateways that Shopify's native subscription flow could not support directly. \n - The system handled 3DS credit card authentication, webhook-driven billing events, and subscription lifecycle operations such as cancel, resume, retry, and refund. \n - Architected with Remix v2, Prisma/MySQL, and background cron workers so operational correctness did not depend on synchronous request flows alone.",
+            "bodyText": "- Built a Shopify embedded app for recurring subscriptions using non-standard payment gateways that Shopify's native subscription flow could not support directly. \n - The system handled 3DS credit card authentication, webhook-driven billing events, and subscription lifecycle operations such as cancel, resume, retry, and refund. \n - Architected with Remix v2, Prisma/MySQL, and background cron workers so operational correctness did not depend on synchronous request flows alone, with AWS-backed supporting services for storage, observability, and secure operations.",
             "links": [],
             "tags" : [
                 "Shopify",
@@ -35,7 +35,7 @@
         {
             "image" : "images/projects/eth.jpg",
             "title": "Shopify ETH Payment Gateway",
-            "bodyText": "- Built a Shopify payment app that acted as middleware between storefront checkout flows and an external Ethereum wallet/payment service. \n - Supported both QR-based ETH payment and direct Web3 wallet payment with transaction hash verification, creating a reliable bridge between Shopify order state and blockchain-oriented payment confirmation. \n - Designed for multi-store use across Vietnam, Japan, Korea, and Brazil with five-language support and HMAC-signed callbacks for safer asynchronous confirmation handling.",
+            "bodyText": "- Built a Shopify payment app that acted as middleware between storefront checkout flows and an external Ethereum wallet/payment service. \n - Supported both QR-based ETH payment and direct Web3 wallet payment with transaction hash verification, creating a reliable bridge between Shopify order state and blockchain-oriented payment confirmation. \n - Designed for multi-store use across Vietnam, Japan, Korea, and Brazil with five-language support and HMAC-signed callbacks for safer asynchronous confirmation handling, supported by AWS-based infrastructure and operational tooling.",
             "links": [],
             "tags" : [
                 "Shopify",
@@ -49,7 +49,7 @@
         {
             "image" : "images/projects/bank-transfer.jpg",
             "title": "Shopify GMO Bank Transfer Payment",
-            "bodyText": "- Built a Shopify app for GMO virtual account bank transfer payments in the Japanese market, where payment completion is inherently asynchronous and operationally sensitive. \n - The solution assigned a permanent virtual account per customer, confirmed Shopify orders from GMO webhook events, and handled partial payments plus balance accumulation rules. \n - Architected with Remix v2, Prisma/MySQL, OpenTelemetry tracing, Slack alerts, and separate cron containers for order expiry handling and webhook reconciliation.",
+            "bodyText": "- Built a Shopify app for GMO virtual account bank transfer payments in the Japanese market, where payment completion is inherently asynchronous and operationally sensitive. \n - The solution assigned a permanent virtual account per customer, confirmed Shopify orders from GMO webhook events, and handled partial payments plus balance accumulation rules. \n - Architected with Remix v2, Prisma/MySQL, OpenTelemetry tracing, Slack alerts, and separate cron containers for order expiry handling and webhook reconciliation, with AWS services supporting storage, security, and operational visibility.",
             "links": [],
             "tags" : [
                 "Shopify",
@@ -138,7 +138,7 @@
         {
             "image" : "images/projects/biteclipse.png",
             "title": "Biteclipse",
-            "bodyText": "- Contributed to a multi-asset online trading platform shaped by real fintech concerns around performance, correctness, and operational stability. \n - This experience helped deepen my interest in system design, distributed workflows, and failure-aware backend architecture.",
+            "bodyText": "- Contributed to a multi-asset online trading platform shaped by real fintech concerns around performance, correctness, and operational stability. \n - The platform used AWS-backed services including MySQL, DynamoDB, ELK, S3, and KMS to support data persistence, observability, storage, and secure operational workflows. \n - This experience helped deepen my interest in system design, distributed workflows, and failure-aware backend architecture.",
             "links": [
                 {
                     "text": "Live",
@@ -170,7 +170,7 @@
         {
             "image" : "images/projects/finstro.png",
             "title": "Finstro Trade",
-            "bodyText": "- Built on a trade payment platform serving B2B financial workflows where backend correctness and integration reliability were important to customer operations. \n - This work strengthened my experience with finance-oriented systems that require practical engineering discipline, not just feature velocity.",
+            "bodyText": "- Built on a trade payment platform serving B2B financial workflows where backend correctness and integration reliability were important to customer operations. \n - Worked in an AWS-backed environment using services such as MySQL, DynamoDB, ELK, S3, and KMS as part of the system's data, observability, storage, and security model. \n - This work strengthened my experience with finance-oriented systems that require practical engineering discipline, not just feature velocity.",
             "links": [
                 {
                     "text": "Live",
@@ -186,7 +186,7 @@
         {
             "image" : "images/projects/minfx.png",
             "title": "Social Trading",
-            "bodyText": "- Worked on social trading functionality where users could automatically follow and copy positions from selected traders. \n - The domain reinforced the importance of ordered state transitions, correctness, and controlled backend behavior in financial workflows.",
+            "bodyText": "- Worked on social trading functionality where users could automatically follow and copy positions from selected traders. \n - The system ran with AWS-backed services including MySQL, DynamoDB, ELK, S3, and KMS to support different data access patterns, monitoring, storage, and secure operations. \n - The domain reinforced the importance of ordered state transitions, correctness, and controlled backend behavior in financial workflows.",
             "links": [
                 {
                     "text": "Live",
@@ -202,7 +202,7 @@
         {
             "image" : "images/projects/minafx.png",
             "title": "FX Trading",
-            "bodyText": "- Contributed to a financial trading platform supporting forex and other instruments in a production environment with real operational users. \n - This work was part of the foundation for how I think about performance, correctness, and system design in transaction-heavy domains.",
+            "bodyText": "- Contributed to a financial trading platform supporting forex and other instruments in a production environment with real operational users. \n - Worked with AWS-backed services such as MySQL, DynamoDB, ELK, S3, and KMS as part of the broader platform architecture. \n - This work was part of the foundation for how I think about performance, correctness, and system design in transaction-heavy domains.",
             "links": [
                 {
                     "text": "Live",

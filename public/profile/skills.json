@@ -1,5 +1,5 @@
 {
-    "intro": "These are the languages, platforms, and engineering tools I have used across backend systems, payment integrations, cloud-oriented delivery, and architecture-heavy product work:",
+    "intro": "These are the languages, platforms, and engineering tools I have used across backend systems, payment integrations, cloud-oriented delivery, and architecture-heavy product work — including AWS-backed stacks with MySQL, DynamoDB, ELK, S3, and KMS:",
     "skills": [{
      
             "title": "Languages & Datastores",
@@ -85,6 +85,31 @@
                 {
                     "icon": "images/skills/docker.png",
                     "title": "Docker"
+                }
+            ]
+    },
+        {
+            "title" : "Cloud, Observability & Security",
+            "items": [
+                {
+                    "icon": "images/skills/aws-rds.svg",
+                    "title": "Amazon RDS / MySQL"
+                },
+                {
+                    "icon": "images/skills/aws-dynamodb.svg",
+                    "title": "Amazon DynamoDB"
+                },
+                {
+                    "icon": "images/skills/aws-s3.svg",
+                    "title": "Amazon S3"
+                },
+                {
+                    "icon": "images/skills/aws-opensearch.svg",
+                    "title": "Amazon OpenSearch / ELK"
+                },
+                {
+                    "icon": "images/skills/aws-kms.svg",
+                    "title": "AWS KMS"
                 }
             ]
     }
