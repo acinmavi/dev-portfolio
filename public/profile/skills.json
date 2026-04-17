@@ -1,8 +1,8 @@
 {
-    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
+    "intro": "These are the languages, platforms, and engineering tools I have used across backend systems, payment integrations, cloud-oriented delivery, and architecture-heavy product work:",
     "skills": [{
      
-            "title": "Languages & Databases",
+            "title": "Languages & Datastores",
             "items" : [
      
                 {
@@ -43,7 +43,7 @@
                 }
         ]},
         {
-            "title": "Frameworks & Technologies",
+            "title": "Frameworks & Application Technologies",
             "items" : [
                 {
                     "icon": "images/skills/spring.png",
@@ -64,7 +64,7 @@
             ]
         },
         {
-            "title" : "Tools & Platforms",
+            "title" : "Tools, Delivery & Platforms",
             "items": [
                 {
                     "icon": "images/skills/intellij.png",

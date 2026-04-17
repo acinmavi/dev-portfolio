@@ -3,7 +3,7 @@
         {
             "image" : "images/projects/shopify-theme.jpg",
             "title": "AI Avatar Shopify Theme",
-            "bodyText": "- Custom Shopify theme (Enterprise v1.1.1) for AI Avatar Global — an e-commerce platform combining traditional commerce with Web3/Blockchain payments. \n - Multi-store setup covering Japan, Bangladesh, Brazil, HQ, and Indonesia with full 9-language localization. \n - Features include ETH/Web3 wallet checkout, countdown timers, pre-order templates, product comparison, and a custom color scheme system.",
+            "bodyText": "- Built a custom Shopify theme for AI Avatar Global, an e-commerce platform combining traditional commerce with Web3 and blockchain payment experiences. \n - Designed for a multi-store rollout across Japan, Bangladesh, Brazil, HQ, and Indonesia with full 9-language localization and market-specific customization. \n - The work required structuring a theme system that could support reusable components, conversion-focused storefront features, and future payment integrations without fragmenting the codebase per market.",
             "links": [
                 {
                     "text": "Live",
@@ -21,7 +21,7 @@
         {
             "image" : "images/projects/credix.jpg",
             "title": "Shopify Subscription App (Credix & Seal)",
-            "bodyText": "- Shopify embedded app managing recurring subscriptions via non-standard payment gateways (Credix and Seal) that are unsupported by Shopify's built-in subscription API. \n - Handles 3DS credit card authentication flows, webhook-driven subscription billing, and full lifecycle management including cancel, resume, and refund. \n - Built with Remix v2, Polaris UI, MySQL/Prisma, and background cron jobs for automated billing cycles.",
+            "bodyText": "- Built a Shopify embedded app for recurring subscriptions using non-standard payment gateways that Shopify's native subscription flow could not support directly. \n - The system handled 3DS credit card authentication, webhook-driven billing events, and subscription lifecycle operations such as cancel, resume, retry, and refund. \n - Architected with Remix v2, Prisma/MySQL, and background cron workers so operational correctness did not depend on synchronous request flows alone.",
             "links": [],
             "tags" : [
                 "Shopify",
@@ -35,7 +35,7 @@
         {
             "image" : "images/projects/eth.jpg",
             "title": "Shopify ETH Payment Gateway",
-            "bodyText": "- Shopify app integrating Ethereum (crypto) payment for stores, acting as middleware between Shopify and an external ETH wallet service. \n - Supports two flows: traditional ETH payment via QR code and Web3 direct wallet payment with transaction hash verification. \n - Multi-store support across VN, JP, KR, and BR markets with i18n (5 languages) and HMAC-signed payment callbacks.",
+            "bodyText": "- Built a Shopify payment app that acted as middleware between storefront checkout flows and an external Ethereum wallet/payment service. \n - Supported both QR-based ETH payment and direct Web3 wallet payment with transaction hash verification, creating a reliable bridge between Shopify order state and blockchain-oriented payment confirmation. \n - Designed for multi-store use across Vietnam, Japan, Korea, and Brazil with five-language support and HMAC-signed callbacks for safer asynchronous confirmation handling.",
             "links": [],
             "tags" : [
                 "Shopify",
@@ -49,7 +49,7 @@
         {
             "image" : "images/projects/bank-transfer.jpg",
             "title": "Shopify GMO Bank Transfer Payment",
-            "bodyText": "- Shopify app integrating GMO virtual account (VA) bank transfer payments for the Japanese market (JPY only). \n - Allocates one permanent VA per customer; automatically confirms Shopify orders when GMO webhooks report a successful bank transfer, with support for partial payments and balance accumulation. \n - Built with Remix v2, Prisma/MySQL, OpenTelemetry tracing, Slack notifications, and separate cron containers for order expiry and GMO webhook reconciliation.",
+            "bodyText": "- Built a Shopify app for GMO virtual account bank transfer payments in the Japanese market, where payment completion is inherently asynchronous and operationally sensitive. \n - The solution assigned a permanent virtual account per customer, confirmed Shopify orders from GMO webhook events, and handled partial payments plus balance accumulation rules. \n - Architected with Remix v2, Prisma/MySQL, OpenTelemetry tracing, Slack alerts, and separate cron containers for order expiry handling and webhook reconciliation.",
             "links": [],
             "tags" : [
                 "Shopify",
@@ -63,7 +63,7 @@
         {
             "image" : "images/projects/suzuwalk.png",
             "title": "Suzuwalk",
-            "bodyText": "- Suzuwalk is a 100% Metaverse-ready platform where you can move to earn, play to earn, and socialize to earn. \n - You, as a member, can adopt a dog, play in-universe games, earn based on your in-universe activity, compete for rewards, and socialize with other Suzuwalk members.",
+            "bodyText": "- Worked on a metaverse-oriented platform combining movement, gameplay, rewards, and social features into one product ecosystem. \n - The product required backend thinking across activity tracking, reward logic, and integration boundaries rather than just isolated feature implementation.",
             "links": [
                 {
                     "text": "Whitepaper",
@@ -83,7 +83,7 @@
         {
             "image" : "images/projects/suzu-market.png",
             "title": "Suzuverse C2C Marketplace",
-            "bodyText": "- The marketplace of Suzuvere is your one-stop destination for listing and trading digital assets including 3D avatar, 3D images. \n - Provide for C2C ",
+            "bodyText": "- Built marketplace functionality for listing and trading user-owned digital assets such as 3D avatars and related virtual goods. \n - The work contributed to a broader product environment where asset ownership, transaction flows, and marketplace behavior had to stay consistent across a growing platform.",
             "links": [
                 {
                     "text": "Live",
@@ -99,7 +99,7 @@
         {
             "image" : "images/projects/suzu-shopify.png",
             "title": "Suzuverse C2C Marketplace",
-            "bodyText": "- The marketplace of Suzuvere is your one-stop destination for buying Suzuverse Stuff. \n - Provide for B2C ",
+            "bodyText": "- Built B2C Shopify storefronts for Suzuverse, supporting commerce flows across multiple markets. \n - The implementation focused on creating a maintainable multi-store setup that could support localized storefront behavior without duplicating everything per region.",
             "links": [
                 {
                     "text": "VN Store",
@@ -122,7 +122,7 @@
         {
             "image" : "images/projects/suzu-ams.png",
             "title": "Suzuverse AMS",
-            "bodyText": "- AMS is a place where you can check all of the information of your SUZUVERSE account including SUZUVERSE Wallet, SUZUVERSE Affiliate and also a place where you can manage your assets (Earners, Avatars, ect).",
+            "bodyText": "- Built account management capabilities for the SUZUVERSE ecosystem, covering wallet visibility, affiliate information, and asset management in one application surface. \n - The work supported a product environment where user identity, digital assets, and platform services needed to stay connected coherently.",
             "links": [
                 {
                     "text": "Live",
@@ -138,7 +138,7 @@
         {
             "image" : "images/projects/biteclipse.png",
             "title": "Biteclipse",
-            "bodyText": "- BitEclipse is all in one online trading platform for multi-asset trading created with long financial market experience and sophisticated FinTech and ICT technology.",
+            "bodyText": "- Contributed to a multi-asset online trading platform shaped by real fintech concerns around performance, correctness, and operational stability. \n - This experience helped deepen my interest in system design, distributed workflows, and failure-aware backend architecture.",
             "links": [
                 {
                     "text": "Live",
@@ -155,7 +155,7 @@
         {
             "image" : "images/projects/btrans.png",
             "title": "Btrans.io",
-            "bodyText": "- An NFT Marketplace provides you with the opportunity to create (mint), sell, purchase, bid on, collect, trade, showcase and otherwise transact digital ",
+            "bodyText": "- Worked on NFT marketplace capabilities covering minting, listing, bidding, collecting, and transacting digital assets. \n - The product required clear service interactions around asset actions and transaction lifecycle handling.",
             "links": [
                 {
                     "text": "Live",
@@ -170,7 +170,7 @@
         {
             "image" : "images/projects/finstro.png",
             "title": "Finstro Trade",
-            "bodyText": "- Finstro is the leader in Trade Payments and our partnership allows us to extend longer and more flexible trade terms to our valued business customers. \n - Finstro is a business partner in Trade Payments and seeks to inspire growth in B2B trade through innovative and integrated financial solutions.",
+            "bodyText": "- Built on a trade payment platform serving B2B financial workflows where backend correctness and integration reliability were important to customer operations. \n - This work strengthened my experience with finance-oriented systems that require practical engineering discipline, not just feature velocity.",
             "links": [
                 {
                     "text": "Live",
@@ -186,7 +186,7 @@
         {
             "image" : "images/projects/minfx.png",
             "title": "Social Trading",
-            "bodyText": "- Minna no Systore is a type of SysTrade service provided by Minna no FX of Traders Securities.  \n - Copy trading enables individuals in the financial markets to automatically copy positions opened and managed by other selected individuals",
+            "bodyText": "- Worked on social trading functionality where users could automatically follow and copy positions from selected traders. \n - The domain reinforced the importance of ordered state transitions, correctness, and controlled backend behavior in financial workflows.",
             "links": [
                 {
                     "text": "Live",
@@ -202,7 +202,7 @@
         {
             "image" : "images/projects/minafx.png",
             "title": "FX Trading",
-            "bodyText": "- Traders Securities offers an impressive array of financial instruments for trading. Apart from the usual suspects like forex and securities, the firm also allows trading in options and popular crypto assets like Bitcoin and Ethereum",
+            "bodyText": "- Contributed to a financial trading platform supporting forex and other instruments in a production environment with real operational users. \n - This work was part of the foundation for how I think about performance, correctness, and system design in transaction-heavy domains.",
             "links": [
                 {
                     "text": "Live",
@@ -218,7 +218,7 @@
         {
             "image" : "images/projects/smas.png",
             "title": "School Management System",
-            "bodyText": "- SMAS is an electronic contact book from Viettel Group that helps connect schools with parents, helping teachers and parents to communicate right on the application with the purpose of improving the quality of teaching and learning of children.",
+            "bodyText": "- Worked on SMAS, Viettel's education platform connecting schools, teachers, and parents through digital communication and school management workflows. \n - The project gave me early experience building software used by large groups of real users in day-to-day operations.",
             "links": [
                 {
                     "text": "Live",

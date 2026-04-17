@@ -1,0 +1,27 @@
+{
+  "title": "Architecture Highlights",
+  "intro": "Selected systems and integration problems where I had to think beyond feature delivery, with a focus on payment flows, asynchronous correctness, tenant isolation, and recovery design.",
+  "items": [
+    {
+      "title": "Multi-Tenant Regional Payment Orchestration",
+      "context": "Designed a billing orchestration approach for Shopify stores that needed regional payment methods beyond Shopify's standard flow.",
+      "constraint": "Different markets, provider behaviors, asynchronous callbacks, duplicate or out-of-order events, and tenant-specific credentials made billing correctness the real challenge.",
+      "decision": "Separated the system into tenant-aware routing, provider adapters, durable webhook ingestion, explicit billing state transitions, and reconciliation workers.",
+      "impact": "Turned provider-specific volatility into a controlled orchestration problem, reducing the risk of double-processing, missing payment state, and cross-tenant blast radius."
+    },
+    {
+      "title": "Regional Payment Integrations for Shopify",
+      "context": "Built regional payment solutions including ETH/Web3 checkout, GMO virtual account transfer, and subscription billing flows not fully covered by Shopify-native capabilities.",
+      "constraint": "The systems had to work across multiple stores and markets, support async payment confirmation, and keep order state aligned with external provider truth.",
+      "decision": "Used middleware-style app services with signed callbacks, background workers, cron-based recovery, and explicit lifecycle handling for payment, cancel, resume, refund, and expiry flows.",
+      "impact": "This required architecture decisions around reliability, state ownership, and operational recovery in real commerce environments, not just gateway integration."
+    },
+    {
+      "title": "Durable Webhook Inbox and Replay",
+      "context": "Designed a compact webhook processing pattern for systems where external providers deliver events at least once and on their own retry schedule.",
+      "constraint": "Slow downstream dependencies, duplicate deliveries, per-resource ordering, and failure recovery can easily break correctness if webhook handling is synchronous.",
+      "decision": "Applied an inbox-first pattern: accept fast, persist first, process asynchronously, protect side effects with idempotency, and allow intentional replay for failed events.",
+      "impact": "The pattern is directly relevant to payment and commerce systems where reliability depends more on recovery design than on the happy path."
+    }
+  ]
+}

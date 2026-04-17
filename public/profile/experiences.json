@@ -5,9 +5,9 @@
             "subtitle": "Bluebelt Ltd",
             "workType": "Full-time",
             "workDescription": [
-                "Created, communicated, and managed project plans.",
-                "Collaborated to create strategic initiaticves to design,code, and test solutions.",
-                "Remained dedicated to emerging technology and the latest tech concepts."
+                "Designed and delivered Shopify-focused systems spanning custom storefronts, embedded apps, and regional payment integrations across multiple stores and markets.",
+                "Worked on architecture-heavy backend flows such as asynchronous payment confirmation, webhook processing, lifecycle recovery, and multi-store operational consistency.",
+                "Balanced hands-on implementation with technical leadership, helping shape solution direction while still building core delivery pieces."
             ],
             "dateText": "07/2023 – Present"
         },
@@ -16,7 +16,9 @@
             "subtitle": "Freelancer Ltd",
             "workType": "Full-time",
             "workDescription": [
-                "Build the core foundation and functionality of a website, web page, or web application including database management, application programming interface (API) development, or web services connections to ensure the app is hosted properly"
+                "Built backend foundations for websites and web applications, covering APIs, database design, service integration, and deployment-ready application structure.",
+                "Delivered practical solutions for clients who needed more than UI work, especially when workflows depended on external systems, custom business rules, or operational reliability.",
+                "Worked independently across architecture, implementation, and troubleshooting to take projects from concept to production-ready delivery."
             ],
             "dateText": "09/2021 – 07/2023"
         },
@@ -25,9 +27,9 @@
             "subtitle": "Yumeshin Vietnam",
             "workType": "Full-time",
             "workDescription": [
-                "Follow agile development approach using JIRA daily standups, planning meetings, story estimations, code review, etc.•",
-                "Resource management",
-                "Resolving tech and non tech issues"
+                "Led delivery coordination across agile teams while staying close to technical discussions, trade-offs, and issue resolution.",
+                "Worked across planning, estimation, resourcing, and cross-team problem solving to keep projects moving without losing sight of implementation realities.",
+                "Acted as a bridge between delivery management and engineering execution, especially when technical blockers affected scope, timing, or quality."
             ],
             "dateText": "05/2018 – 09/2021"
         },
@@ -36,9 +38,9 @@
             "subtitle": "Sofiamedix Software Co.,Ltd",
             "workType": "Full-time",
             "workDescription": [
-                "Created, communicated, and managed project plans.•",
-                "Effectively coded software changes and alterations based on specific design specifications.",
-                "Developed CI/CD system with Jenkins on Kubernetes environment, utilized Kubernetes and Docker for the runtime environment for the CI/CD system to build, Test and Deploy."
+                "Built backend services and production features in a domain where correctness and system reliability had direct business impact.",
+                "Implemented changes from technical designs while keeping maintainability and operational behavior in mind.",
+                "Developed CI/CD workflows with Jenkins on Kubernetes, using Docker-based runtime environments to standardize build, test, and deployment processes."
             ],
             "dateText": "06/2015 – 06/2018"
         },
@@ -47,9 +49,9 @@
             "subtitle": "NEXTOP Co., Ltd",
             "workType": "Full-time",
             "workDescription": [
-                "Done Designing and development of RESTful API and services using best practices to interact within the microservices and with the front end",
-                "Created Swagger API to generate interactive API documentation that lets users try out the API calls directly from the browser",
-                "Created and managed all hosted or local repositories through Source Tree's simple interface of GIT client, collaborated with GIT command lines and Stash"
+                "Designed and implemented RESTful APIs and backend services for systems that needed clean service boundaries and dependable frontend integration.",
+                "Improved API usability and collaboration by generating interactive Swagger documentation for development and testing workflows.",
+                "Worked with Git-based delivery processes and repository management as part of day-to-day backend engineering practice."
             ],
             "dateText": "06/2013 – 06/2015"
         },
@@ -58,7 +60,8 @@
             "subtitle": "Viettel Corp",
             "workType": "Full-time",
             "workDescription": [
-                " Effectively coded software changes and alterations based on specific design specifications.Collaborated to create strategic initiaticves to design, code, and test solutions."
+                "Implemented production software changes from technical specifications and collaborated on design, coding, and testing activities.",
+                "Built early-career experience in disciplined delivery for large-scale products with real operational users."
             ],
             "dateText": "09/2012 – 06/2013"
         }

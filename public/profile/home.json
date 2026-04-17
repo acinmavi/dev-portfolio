@@ -1,4 +1,17 @@
 {
-    "name": "Dunzg Nguyen",
-    "roles": ["a Software Developer", "a Software Architecture", "a Technical Leader", "a Project Manager", "a Freelancer"]
+    "name": "Dung Nguyen",
+    "roles": [
+        "a Senior Engineer / Tech Lead",
+        "an Engineer who also does Architecture",
+        "a Builder of Reliable Payment Systems",
+        "a Distributed Systems-minded Problem Solver"
+    ],
+    "intro": "I design and deliver backend-heavy systems with a focus on payment workflows, architecture thinking, and production reliability.",
+    "focusAreas": [
+        "System Design",
+        "Distributed Systems",
+        "AWS / Cloud",
+        "Payments & Commerce",
+        "Latency, Reliability, Cost"
+    ]
 }

@@ -108,6 +108,77 @@ section.timeline-card-content div.card-description > p {
   margin-top: 60px;
 }
 
+.home-focus-pill {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.architecture-highlights {
+  width: 100%;
+  padding: 32px 0 64px;
+}
+
+.architecture-highlights__header {
+  max-width: 900px;
+  margin: 0 auto 32px;
+  text-align: left;
+}
+
+.architecture-highlights__eyebrow {
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.8rem;
+  font-weight: 700;
+  opacity: 0.75;
+}
+
+.architecture-highlights__title {
+  margin: 0 0 12px;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.architecture-highlights__intro {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.architecture-highlight-card {
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+.architecture-highlight-card__title {
+  margin-bottom: 18px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.architecture-highlight-card__block {
+  margin-bottom: 16px;
+}
+
+.architecture-highlight-card__block:last-child {
+  margin-bottom: 0;
+}
+
+.architecture-highlight-card__label {
+  display: inline-block;
+  margin-bottom: 6px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.architecture-highlight-card__block p {
+  margin: 0;
+  line-height: 1.75;
+}
+
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
 
@@ -169,8 +240,25 @@ section.timeline-card-content div.card-description > p {
     margin-top: 30px;
   }
 
+  .home-focus-areas {
+    gap: 10px !important;
+  }
+
+  .home-focus-pill {
+    font-size: 0.85rem !important;
+  }
+
   .section-content-container {
     padding: 0 16px;
+  }
+
+  .architecture-highlights {
+    padding: 12px 0 48px;
+  }
+
+  .architecture-highlights__header {
+    text-align: center;
+    margin-bottom: 24px;
   }
 }
 
